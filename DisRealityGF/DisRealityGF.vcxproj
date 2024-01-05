@@ -145,9 +145,11 @@
   <ItemGroup>
     <ClInclude Include="DisRealityGF.h" />
     <ClInclude Include="engine_utility.h" />
+    <ClInclude Include="ini_parser.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="engine_utility.cpp" />
+    <ClCompile Include="ini_parser.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

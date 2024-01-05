@@ -19,18 +19,30 @@
     <Filter Include="Исходные файлы\Engine">
       <UniqueIdentifier>{51cf164a-5b8a-47c8-80d2-c2b569744eec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\Utility">
+      <UniqueIdentifier>{2d5a2255-4ea3-4cfd-9758-26d58c4a42e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Utility">
+      <UniqueIdentifier>{f26d2b93-e23a-4216-b36b-5cf9130191f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DisRealityGF.h">
       <Filter>Файлы заголовков\Engine</Filter>
     </ClInclude>
     <ClInclude Include="engine_utility.h">
-      <Filter>Файлы заголовков\Engine</Filter>
+      <Filter>Файлы заголовков\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ini_parser.h">
+      <Filter>Файлы заголовков\Utility</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="engine_utility.cpp">
       <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ini_parser.cpp">
+      <Filter>Исходные файлы\Utility</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
