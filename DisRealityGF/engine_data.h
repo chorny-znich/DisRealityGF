@@ -1,12 +1,12 @@
 #pragma once
 
-#include <SFML/System.hpp>
+#include <SFML/Graphics.hpp>
 #include <string>
-//#include "asset_manager.h"
+#include "asset_manager.h"
 
 namespace dr {
-//	using Textures = AssetManager<std::string, sf::Texture>;
-//	using Fonts = AssetManager<std::string, sf::Font>;
+	using Textures = AssetManager<std::string, sf::Texture>;
+	using Fonts = AssetManager<std::string, sf::Font>;
 
 	/**
 	 * @brief the window's resolution state

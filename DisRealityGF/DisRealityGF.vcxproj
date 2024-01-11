@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="asset_manager.h" />
     <ClInclude Include="DisRealityGF.h" />
     <ClInclude Include="engine.h" />
     <ClInclude Include="engine_data.h" />

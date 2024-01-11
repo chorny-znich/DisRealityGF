@@ -3,7 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include "engine_data.h"
 #include "game_state.h"
-//#include "asset_manager.h"
+#include "asset_manager.h"
 //#include "text_manager.h"
 //#include <utility>
 
@@ -33,9 +33,9 @@ namespace dr {
     std::pair<EngineConfig, WindowConfig> parseEngineConfig();
 
   protected:
-  /*  Textures mTextureManager;
+    Textures mTextureManager;
     Fonts mFontManager;
-    TextManager mTextManager; */
+  //  TextManager mTextManager;
     virtual void createStartScreen() = 0;
     virtual void init() = 0;
 
