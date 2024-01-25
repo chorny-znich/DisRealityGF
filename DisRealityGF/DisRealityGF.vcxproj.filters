@@ -25,6 +25,12 @@
     <Filter Include="Исходные файлы\Utility">
       <UniqueIdentifier>{f26d2b93-e23a-4216-b36b-5cf9130191f2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\Asset">
+      <UniqueIdentifier>{d1a999fd-0268-4787-ba28-6e1834f74da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Asset">
+      <UniqueIdentifier>{59732a38-a490-4753-aa09-2a7268d02621}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DisRealityGF.h">
@@ -48,8 +54,11 @@
     <ClInclude Include="screen.h">
       <Filter>Файлы заголовков\Engine</Filter>
     </ClInclude>
+    <ClInclude Include="text_manager.h">
+      <Filter>Файлы заголовков\Asset</Filter>
+    </ClInclude>
     <ClInclude Include="asset_manager.h">
-      <Filter>Файлы заголовков\Engine</Filter>
+      <Filter>Файлы заголовков\Asset</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -76,6 +85,9 @@
     </ClCompile>
     <ClCompile Include="game_state.cpp">
       <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="text_manager.cpp">
+      <Filter>Исходные файлы\Asset</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

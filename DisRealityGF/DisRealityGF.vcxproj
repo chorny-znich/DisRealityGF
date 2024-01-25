@@ -151,6 +151,7 @@
     <ClInclude Include="game_state.h" />
     <ClInclude Include="ini_parser.h" />
     <ClInclude Include="screen.h" />
+    <ClInclude Include="text_manager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="engine.cpp" />
@@ -160,6 +161,7 @@
     <ClCompile Include="ini_parser.cpp" />
     <ClCompile Include="input_handler.cpp" />
     <ClCompile Include="render.cpp" />
+    <ClCompile Include="text_manager.cpp" />
     <ClCompile Include="update.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
