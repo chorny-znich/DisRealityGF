@@ -144,6 +144,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="asset_manager.h" />
+    <ClInclude Include="button.h" />
     <ClInclude Include="DisRealityGF.h" />
     <ClInclude Include="engine.h" />
     <ClInclude Include="engine_data.h" />
@@ -154,6 +155,7 @@
     <ClInclude Include="text_manager.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="button.cpp" />
     <ClCompile Include="engine.cpp" />
     <ClCompile Include="engine_utility.cpp" />
     <ClCompile Include="event_handler.cpp" />

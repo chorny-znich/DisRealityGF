@@ -31,6 +31,12 @@
     <Filter Include="Исходные файлы\Asset">
       <UniqueIdentifier>{59732a38-a490-4753-aa09-2a7268d02621}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\GUI">
+      <UniqueIdentifier>{4311fd9f-02e6-4a6f-a00c-4e3dabc7f050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GUI">
+      <UniqueIdentifier>{f6d45f5f-1cf4-4d04-a621-e2dd79523a4d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DisRealityGF.h">
@@ -60,6 +66,9 @@
     <ClInclude Include="asset_manager.h">
       <Filter>Файлы заголовков\Asset</Filter>
     </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Файлы заголовков\GUI</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="engine_utility.cpp">
@@ -88,6 +97,9 @@
     </ClCompile>
     <ClCompile Include="text_manager.cpp">
       <Filter>Исходные файлы\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>Исходные файлы\GUI</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
