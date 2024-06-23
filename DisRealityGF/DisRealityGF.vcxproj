@@ -18,6 +18,32 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="asset_manager.h" />
+    <ClInclude Include="button.h" />
+    <ClInclude Include="database.h" />
+    <ClInclude Include="DisRealityGF.h" />
+    <ClInclude Include="engine.h" />
+    <ClInclude Include="engine_data.h" />
+    <ClInclude Include="engine_utility.h" />
+    <ClInclude Include="game_state.h" />
+    <ClInclude Include="ini_parser.h" />
+    <ClInclude Include="screen.h" />
+    <ClInclude Include="text_manager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="database.cpp" />
+    <ClCompile Include="engine.cpp" />
+    <ClCompile Include="engine_utility.cpp" />
+    <ClCompile Include="event_handler.cpp" />
+    <ClCompile Include="game_state.cpp" />
+    <ClCompile Include="ini_parser.cpp" />
+    <ClCompile Include="input_handler.cpp" />
+    <ClCompile Include="render.cpp" />
+    <ClCompile Include="text_manager.cpp" />
+    <ClCompile Include="update.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
