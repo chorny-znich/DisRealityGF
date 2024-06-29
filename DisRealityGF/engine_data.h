@@ -1,13 +1,15 @@
 #pragma once
 
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 #include <string>
 #include "asset_manager.h"
 
 namespace dr {
 	using Textures = AssetManager<std::string, sf::Texture>;
+	using Sounds = AssetManager<std::string, sf::Sound>;
 	using Fonts = AssetManager<std::string, sf::Font>;
-
+	
 	/**
 	 * @brief the window's resolution state
 	 * NATIVE for current desktop resolution
