@@ -4,6 +4,7 @@
 #pragma once
 
 #include "engine.h"
+#include "engine_data.h"
 #include "screen.h"
 #include "text_manager.h"
 #include "button.h"
