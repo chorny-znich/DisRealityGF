@@ -7,7 +7,7 @@
 
 namespace dr {
 	using Textures = AssetManager<std::string, sf::Texture>;
-	using Sounds = AssetManager<std::string, sf::Sound>;
+	using Sounds = AssetManager<std::string, sf::SoundBuffer>;
 	using Fonts = AssetManager<std::string, sf::Font>;
 	
 	/**
