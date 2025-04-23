@@ -35,5 +35,8 @@
     <ClInclude Include="engine.h">
       <Filter>Файлы заголовков\Engine</Filter>
     </ClInclude>
+    <ClInclude Include="DisRealityGF.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
