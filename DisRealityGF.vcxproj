@@ -133,10 +133,12 @@
   <ItemGroup>
     <ClInclude Include="DisRealityGF.h" />
     <ClInclude Include="engine.h" />
+    <ClInclude Include="ini_parser.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="engine.cpp" />
     <ClCompile Include="handle_event.cpp" />
+    <ClCompile Include="ini_parser.cpp" />
     <ClCompile Include="render.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
