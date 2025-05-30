@@ -1,4 +1,6 @@
 #pragma once
+#include "asset_manager.h"
+#include "engine_data.h"
 #include <SFML/Graphics.hpp>
 
 namespace dr
@@ -15,6 +17,12 @@ namespace dr
 
 		void handleEvent();
 		void render();
+	protected:
+		Textures mTextureManager;
+		Sounds mSoundManager;
+		Fonts mFontManager;
+
+		virtual void init() = 0;
 	public:
 		Engine();
 		Engine(Engine& engine) = delete;

@@ -16,6 +16,7 @@ namespace dr
   */
   void Engine::run()
   {
+    init();
     while (mWindow.isOpen()) {
       handleEvent();
       render();

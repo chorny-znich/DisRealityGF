@@ -10,7 +10,7 @@ namespace dr
    * @param path to the ini file 
    * @return The object of the Document class
    */
-  IniDocument dr::load(const std::string& filename)
+  IniDocument dr::loadIniDocument(const std::string& filename)
   {
 		IniDocument doc;
 		Section* section = nullptr;

@@ -22,5 +22,5 @@ namespace dr
     const Section& getSection(const std::string& name) const;
   };
 
-  IniDocument load(const std::string& filename);
+  IniDocument loadIniDocument(const std::string& filename);
 }

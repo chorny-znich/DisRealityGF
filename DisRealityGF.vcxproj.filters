@@ -25,6 +25,9 @@
     <Filter Include="Исходные файлы\Utility">
       <UniqueIdentifier>{04311a2c-b740-46e3-8c04-d0a22f28a29e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\Asset">
+      <UniqueIdentifier>{00ffb2e1-645e-41e3-96d5-8c318d22a79b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="handle_event.cpp">
@@ -50,5 +53,16 @@
     <ClInclude Include="ini_parser.h">
       <Filter>Файлы заголовков\Utility</Filter>
     </ClInclude>
+    <ClInclude Include="asset_manager.h">
+      <Filter>Файлы заголовков\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_data.h">
+      <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docs\engine.md">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
   </ItemGroup>
 </Project>
