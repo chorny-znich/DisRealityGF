@@ -28,6 +28,9 @@
     <Filter Include="Файлы заголовков\Asset">
       <UniqueIdentifier>{00ffb2e1-645e-41e3-96d5-8c318d22a79b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\Screen">
+      <UniqueIdentifier>{68971491-45ed-42c1-8dc0-b50f846aa79b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="handle_event.cpp">
@@ -58,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="engine_data.h">
       <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>Файлы заголовков\Screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
