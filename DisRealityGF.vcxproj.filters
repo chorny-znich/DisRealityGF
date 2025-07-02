@@ -31,6 +31,9 @@
     <Filter Include="Файлы заголовков\Screen">
       <UniqueIdentifier>{68971491-45ed-42c1-8dc0-b50f846aa79b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Screen">
+      <UniqueIdentifier>{802deaff-a9af-4cbe-ad38-2d399f69a42e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="handle_event.cpp">
@@ -44,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="ini_parser.cpp">
       <Filter>Исходные файлы\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="screen_manager.cpp">
+      <Filter>Исходные файлы\Screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +69,9 @@
       <Filter>Файлы заголовков\Engine</Filter>
     </ClInclude>
     <ClInclude Include="screen.h">
+      <Filter>Файлы заголовков\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="screen_manager.h">
       <Filter>Файлы заголовков\Screen</Filter>
     </ClInclude>
   </ItemGroup>
